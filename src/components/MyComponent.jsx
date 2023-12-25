@@ -9,7 +9,7 @@ const schema = {
   type: 'object',
   required: ['goc'],
   properties: {
-    goc: { type: 'string', title: 'Nhập góc:' }
+    goc: { type: 'number', title: 'Nhập góc:' }
   },
 };
 
